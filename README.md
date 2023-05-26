@@ -31,7 +31,7 @@ De retour à votre bureau, vous trouvez un mail de Fanny qui vous envoie les maq
 
 ## Soutenance
 date de validation
-_3 juin 2022_
+_22 juillet 2022_
 
 point fort :
 >"code bien organisé, rendu élégant et soigné"
