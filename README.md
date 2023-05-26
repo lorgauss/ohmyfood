@@ -30,7 +30,8 @@ De retour à votre bureau, vous trouvez un mail de Fanny qui vous envoie les maq
 
 
 ## Soutenance
-date de validation
+date de validation :
+
 _22 juillet 2022_
 
 point fort :
