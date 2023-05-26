@@ -1,0 +1,134 @@
+// --- Main Button --- With effect ---
+.button_gradiant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 270px;
+    text-decoration: none;
+    @include rob-font;
+    font-size: 20px;
+    font-weight: 400;
+    color: $white;
+    background: linear-gradient(175deg, $pink 0%, $violet 100%);
+    border-radius: 40px;
+
+    box-shadow: inset 0px 0px 0px $transpwhite, inset 0px 0px 0px $transpwhite,  0 5px 10px $darkergrey;
+
+    transition-property: box-shadow, scale;
+    transition-duration: 0.2s;
+}
+
+.button_gradiant:hover{
+    box-shadow: inset 1px 1px 45px $transpwhite, inset -1px -1px 45px $transpwhite,  0 5px 8px $darkestgrey;
+}
+
+// --- Favorit Button --- Heart Filling effect --- 
+
+.favorit_button:hover{
+    background-image: linear-gradient(0deg, $pink 0%, $violet 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 0;
+    animation: favorit 0.5s;
+}
+
+@keyframes favorit {
+    from{
+        -webkit-text-stroke: 2px $lighterblack;
+        background-image: linear-gradient(0deg, $pink 0%, $violet 0%,$white 0%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    5%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 5%,$white 5%);
+        -webkit-text-stroke: 2px transparentize($color: $lighterblack, $amount: 0);
+    }
+    10%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 10%,$white 10%);
+    }
+    15%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 15%,$white 15%);
+    }
+    20%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 20%,$white 20%);
+    }
+    25%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 25%,$white 25%);
+    }
+    30%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 30%,$white 30%);
+        -webkit-text-stroke: 2px transparentize($color: $lighterblack, $amount: 1);
+    }
+    35%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 35%,$white 35%);
+        -webkit-text-stroke: 0;
+    }
+    40%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 40%,$white 40%);
+    }
+    45%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 45%,$white 45%);
+    }
+    50%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 50%,$white 50%);
+    }
+    55%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 55%,$white 55%);
+    }
+    60%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 60%,$white 60%);
+    }
+    65%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 65%,$white 65%);
+    }
+    70%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 70%,$white 70%);
+    }
+    75%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 75%,$white 75%);
+    }
+    80%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 80%,$white 80%);
+    }
+    85%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 85%,$white 85%);
+    }
+    90%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 90%,$white 90%);
+    }
+    95%{
+        background-image: linear-gradient(0deg, $pink 0%, $violet 95%,$white 95%);
+    }
+    to{
+    background-image: linear-gradient(0deg, $pink 0%, $violet 100%);
+    }
+}
+
+// --- Selection of a menu_item ---
+
+.menu_item:hover{
+    .menu_item_info{
+        width: calc(100% - 75px);
+    }
+    .menu_item_check{
+        width: 75px;
+        i{
+            animation: add_item_rotate 0.4s cubic-bezier(0,.37,.85,1.03);
+        }
+    }
+}
+
+@keyframes add_item_rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

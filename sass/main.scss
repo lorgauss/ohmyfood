@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap');
+
+@import "./abstracts/_variables";
+@import "./abstracts/_mixins";
+
+@import "./base/_boxsizing";
+@import "./base/_nodarkmode";
+@import "./base/_typography";
+
+@import "./layout/_breakpoint";
+@import "./layout/_headers";
+@import "./layout/_footers";
+
+@import "./components/_buttons";
+@import "./components/_backgrounds";
+@import "./components/_loadingspinner";
+@import "./components/_tags";
+
+@import "./pages/_index";
+@import "./pages/_menus";

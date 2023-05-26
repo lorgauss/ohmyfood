@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items:flex-start;
+    background-color: $lightblack;
+    padding: 30px;
+    img{
+        height: 22px;
+        filter: brightness(100);
+    }
+    ul{
+        list-style-type: none;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+        li{
+            margin-block: 10px;
+            a{
+                text-decoration: none;
+                span{                    
+                    color: $white;
+                    font-size: 20px;
+                }
+                i{
+                    color: $white;
+                    font-size: 14px;
+                    margin-inline-end: 10px;
+                }
+            }
+        }
+    }
+}

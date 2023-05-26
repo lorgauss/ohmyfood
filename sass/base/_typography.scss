@@ -1,0 +1,50 @@
+input{
+    @include rob-font;
+    font-size: 20px;
+    font-weight: 700;
+}
+input::placeholder{
+    color: $lightblack;
+}
+
+h1{
+    @include shr-font;
+    font-size: 38px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    @include rob-font;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    @include rob-font;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    @include rob-font;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    @include rob-font;
+}
+
+.heart_ico{
+    font-size: 30px;
+    transform: scaleY(1.15);
+    -webkit-text-stroke: 2px $lighterblack;
+    color: $white;
+}

@@ -1,0 +1,33 @@
+.index_header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-block-start: 30px;
+    padding-block-end: 15px;
+    height: 85px;
+    background-color: $white;
+}
+
+.menu_header{    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    background-color: $white;
+    a, a:link, a:active, a:visited{
+        margin-block-start: 15px;
+        margin-inline: 5%;
+        padding: 5px;
+        text-decoration: none;
+        color: $lightblack;
+        font-size: 24px;
+        -webkit-text-stroke: 1px $lightblack;
+    }
+    img{
+        height: 100%;
+        padding-block-end: 15px;
+        padding-block-start: 30px;
+        margin-inline: 15%;
+    }
+}
