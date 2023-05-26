@@ -1,4 +1,4 @@
-# Transformez une maquette en site web avec HTML & CSS
+# Dynamisez une page web avec des animations CSS
 ### OhMyFood! - Réservez le menu qui vous convient
 _Projet 3 - Formation Développeu.r.se Web - juillet 2022 - Openclassrooms_
 
